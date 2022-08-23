@@ -33,9 +33,9 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Just Another Text Editor',
+        name: 'jate',
         short_name: 'jate',
-        description: 'A text editor that can work offline using IndexedDB',
+        description: 'just another text editor',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: '/',

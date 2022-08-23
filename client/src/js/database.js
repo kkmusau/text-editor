@@ -25,16 +25,16 @@ export const putDb = async (content) => {
   const tx = jateDB.transaction("jate", "readwrite");
 
   // opens up the desired object store
-  const store = tx.objectStore('jate');
+  const store = tx.objectStore("jate");
 
   // uses the .put() on the store 
-  const request = store.put({"jate": content});
+  const request = store.put({content});
 
 // gets confirmation of the request
   const result = await request;
  
   console.error('putDb not implemented');
-  console.log('🚀 - data saved to the database', result);
+  console.log('🚀 - data saved to the jate store in indexedDb', result);
 };
 
 // TODO: Add logic for a method that gets all the content from the database
@@ -56,7 +56,7 @@ export const getDb = async () => {
 
   // gets confirmation of the request
   const result = await request; 
-  console.log(result);
+  console.log("result.value", result);
 
 };
 
