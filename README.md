@@ -1,11 +1,12 @@
-# Text-Editor :memo:
+# Text-Editor :pencil2:
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description :pencil:
 This text editor is a single-page application that runs in the browser. It features a data persistence techniques that serve as a redundancy in case one of the options is not supported by the browser. In addition, the this application can also function offline.
 
-## Demo :desktop_computer:
-[![Demo](gif here)]https://www.loom.com/)
+## Deployed Application :desktop_computer:
+Deployed Page Click [Here](https://jate-km.herokuapp.com/)
+![JATE](https://user-images.githubusercontent.com/101844445/186054130-22342573-a737-4e6d-8ce1-f40a6c6277c7.JPG)
 
 ## Table of Contents :open_book:
 - [Description](#description-pencil)
